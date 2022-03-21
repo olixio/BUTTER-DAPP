@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Theo The Love Butter";
 const description = "Meet Theo! The Love butter!";
-const baseUri = "ipfs://update"; // This will be replaced automatically
+const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
