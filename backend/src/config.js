@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 1533,
     layersOrder: [
       { name: "Background" },
       { name: "Background Add On" },
@@ -26,7 +26,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 15,
+    growEditionSizeTo: 2433,
     layersOrder: [
       { name: "Background" },
       { name: "Background Add On" },
@@ -39,7 +39,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 3333,
     layersOrder: [
       { name: "Background" },
       { name: "Background Add On" },
@@ -71,7 +71,7 @@ const extraMetadata = {
 
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
-const LIMIT = 2; // Your API key rate limit
+const LIMIT = 10; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
